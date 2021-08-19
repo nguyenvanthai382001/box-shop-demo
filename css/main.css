@@ -389,12 +389,12 @@ body{
 
 }
 .list_dropdow_child{
-    position: absolute;
     top: 0;
     left: 203px;
-    z-index: 2;
-    display: none;
-    border: 0.5px solid rgb(226, 220, 220);
+}
+.dropdow_child_forums .list_dropdow{
+    top: 160px;
+    left: 203px;
 }
 .item_dropdown_page .link_dropdown_page i{
     padding-left: 83px;
