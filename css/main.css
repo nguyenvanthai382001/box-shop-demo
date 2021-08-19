@@ -363,12 +363,13 @@ body{
 }
 .list_dropdow{ 
     position: absolute;
-    z-index: 10;
+    z-index: 1;
     background-color: white;
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
     top: 96px;
+    border: 0.5px solid rgb(226, 220, 220);
 }
 .item_dropdown .link_dropdown{
     text-decoration: none;
@@ -386,4 +387,36 @@ body{
 .list_dropdow_home{
     left: -19px;
 
+}
+.list_dropdow_child{
+    position: absolute;
+    top: 0;
+    left: 203px;
+    z-index: 2;
+    display: none;
+    border: 0.5px solid rgb(226, 220, 220);
+}
+.item_dropdown_page .link_dropdown_page i{
+    padding-left: 83px;
+    font-style: 5px;
+}
+.item_dropdown_blog .link_dropdown_blog i{
+    padding-left: 53px;
+    font-style: 5px;
+}
+.item_dropdown_blog .link_dropdown_blogchild i{
+    padding-left: 94px;
+    font-style: 5px;
+}
+.dropdow_child{
+    display: none;
+}
+.item_dropdown_page:hover .dropdow_child {
+    display: block;
+}
+.dropdow_child_blogmasonry .list_dropdow_child{
+    top: 96px;
+}
+.item_dropdown_blog:hover .dropdow_child {
+    display: block;
 }
